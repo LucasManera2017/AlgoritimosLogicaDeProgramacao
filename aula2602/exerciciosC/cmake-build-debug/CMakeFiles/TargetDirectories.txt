@@ -1,0 +1,3 @@
+C:/Users/lucas/FATEC/Lógica/aula2602/exerciciosC/cmake-build-debug/CMakeFiles/exerciciosC.dir
+C:/Users/lucas/FATEC/Lógica/aula2602/exerciciosC/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/lucas/FATEC/Lógica/aula2602/exerciciosC/cmake-build-debug/CMakeFiles/rebuild_cache.dir

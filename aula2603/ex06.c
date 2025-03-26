@@ -1,0 +1,29 @@
+#include <stdio.h>
+int main(void) {
+  int escolha;
+  printf("Boteco Sao Joao\n");
+  printf("=========================\n");
+  printf("Menu de bebidas\n");
+  printf("1.. Cerveja Skol\n");
+  printf("2.. Cerveja Petra\n");
+  printf("3.. Cerveja Crystal\n");
+  printf("Escolha sua opcao:\n");
+  scanf("%d", &escolha);
+
+  switch (escolha)
+  {
+  case 1:
+    printf("Skol em promocao\n");
+    break;
+  case 2:
+    printf("Petra eh ruim\n");
+    break;
+  case 3:
+    printf("A mais barata eh a Crystal\n");
+    break;
+  default:
+    printf("Opcao invalida\n");
+  }
+ 
+  return 0;
+}

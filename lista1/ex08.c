@@ -7,11 +7,13 @@ int main (void){
   printf ("Digite um numero inteiro: ");
   scanf ("%d", &a);
 
-  if (a%2 == 0) {
-    printf ("O numero %d eh par.\n", a);
-  } else {
-    printf ("O numero %d eh impar.\n", a);
-  }
+  // if (a%2 == 0) {
+  //   printf ("O numero %d eh par.\n", a);
+  // } else {
+  //   printf ("O numero %d eh impar.\n", a);
+  // }
+
+  a % 2 == 0 ? printf ("O numero %d eh par.\n", a) : printf ("O numero %d eh impar.\n", a); 
 
 
 

@@ -3,11 +3,11 @@
 int main (void){
   double salarioMensal, impostoDeRenda; 
 
-  printf("Informe o salario mensal: ");
+  printf("Informe o salario mensal: \n");
   scanf("%lf", &salarioMensal);
 
   if (salarioMensal <= 2112.00){
-    printf("Isento de imposto de renda");
+    printf("Isento de imposto de renda\n");
   } else if (salarioMensal <= 2826.65) {
     impostoDeRenda = salarioMensal * 0.075;
     printf("Valor do imposto de renda: %.2lf", impostoDeRenda);

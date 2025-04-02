@@ -5,9 +5,9 @@ int main (void){
   float valorProduto, valorFinal;
   int escolha; 
 
-  printf("Condições de pagamento.\n");
+  printf("Condicoes de pagamento.\n");
   printf("1 - A vista em dinheiro ou cheque, com 10 porcento de desconto: \n");
-  printf("2 - A vista com Cartão de credito, com 5 porcento de desconto: \n");
+  printf("2 - A vista com Cartao de credito, com 5 porcento de desconto: \n");
   printf("3 - Em duas vezes, preco normal: \n");
   printf("4 - Em 3 vezes, preco de etiqueta com acrescimo de 10 porcento. \n");
   printf("Escolha uma das condicoes de pagamento.\n");
@@ -39,7 +39,7 @@ int main (void){
 
   default:
     printf("Opcao invalida.\n");
-    break;
+    return 1; 
   }
 
   return 0;

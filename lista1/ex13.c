@@ -4,19 +4,35 @@
 int main (void){
   char a; 
 
-  printf("Digite um caractere: \n");
+  printf("Digite uma letra: \n");
   scanf("%c", &a);
 
-  if (a >= 'a' && a <= 'z') {
-    printf("O caractere %c eh uma letra minusculo.\n", a);
-  } else if (a >= 'A' && a <= 'Z') {
-    printf("O caractere %c eh uma letra maiusculo.\n", a);
-  } else if (a >= '0' && a <= '9') { 
-    printf("O caractere %c eh um numero.\n", a);
-  } else {
-    printf("O caractere %c nao eh uma letra, nem um numero.\n", a);
+  if ( ( (int) a >= 65 && (int) a <= 90 ) || ((int) a >= 97 && (int)a <= 122)){ 
+    switch (a)
+  {
+  case 'a':
+  case 'e':
+  case 'i':
+  case 'o':
+  case 'u':
+  case 'A':
+  case 'E':
+  case 'I':
+  case 'O':
+  case 'U':
+    printf("Eh uma vogal\n");
+    break;
+
+  default:
+    printf("Eh uma consoante\n");
+    break;
   }
 
+  } else {
+    printf("Nao eh vogal ou consoante.\n");
+  }
+
+  
 
   return 0;
 }

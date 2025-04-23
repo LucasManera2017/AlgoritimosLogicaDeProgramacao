@@ -1,16 +1,19 @@
 #include <stdio.h>
 
 int main () {
-  int a,x = 1; 
+  int a,fat = 1; 
 
   printf ("Digite um numero inteiro positivo: \n");
   scanf("%d", &a);
 
-  for (int i=1; i<=a; i++){
-    x *= i; 
+  for (int i=a; i>=1; i--){
+    fat *= i; 
+
+    i == 1 ? printf ("%d = ", i) : printf("%d X ", i);
+
   }
 
-  printf("O resultado de %d! eh: %d\n", a, x);
+  printf("%d\n", fat);
 
 
   return 0; 

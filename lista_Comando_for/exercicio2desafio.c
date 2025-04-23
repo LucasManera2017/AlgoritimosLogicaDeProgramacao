@@ -9,10 +9,10 @@ int main () {
 
     valorAtual = valorInicial;
 
-    for (int i = 1; i <= 120; i++) {
+    for (int i = 1; i <= 10; i++) {
         rendimento = valorAtual * 0.06; // 6% ao mês
         valorAtual += rendimento; // valorAtual agora inclui o rendimento
-        printf("Mes %3d | Rendimento: R$ %.2lf | Total acumulado: R$ %.2lf\n", i, rendimento, valorAtual);
+        printf("Ano %3d | Rendimento: R$ %.2lf | Total acumulado: R$ %.2lf\n", i, rendimento, valorAtual);
     }
 
     return 0;

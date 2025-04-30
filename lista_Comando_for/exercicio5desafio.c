@@ -12,9 +12,5 @@ int main () {
         segundo = proximo; // 2 // 3 // 5 
   }
   
-
-
-
-
   return 0; 
 }
